@@ -30,6 +30,7 @@ Button.propTypes = {
   text: PropTypes.string,
   px: PropTypes.string,
   py: PropTypes.string,
+  width: PropTypes.bool,
 };
 
 export default Button;
