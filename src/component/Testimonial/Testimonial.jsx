@@ -1,0 +1,101 @@
+import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Parallax, Pagination, Navigation, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import user1 from "../../assets/person .png";
+import { FaStar } from "react-icons/fa";
+
+const Testimonial = () => {
+  return (
+    <section className="container mx-auto py-20">
+      <h1 className="text-[#12151A] font-semibold text-5xl mb-10 text-center">
+        Loved by Thousands
+      </h1>
+      <div className="relative">
+        <Swiper
+          speed={2500}
+          parallax={true}
+          navigation={{
+            nextEl: ".custom-next",
+            prevEl: ".custom-prev",
+          }}
+          loop={true}
+          modules={[Parallax, Pagination, Navigation, Autoplay]}
+          className="mySwiper "
+        >
+          {/* Slides */}
+          <SwiperSlide>
+            <div className="w-[588px] shadow-md p-6 rounded-[30px] mx-auto testimonial-shadow y-20">
+              <p className="text-lg text-[#242A33] mb-[30px]">
+                Finally, a product that actually helps with my snoring! My
+                partner sleeps better, and so do I.
+              </p>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2.5">
+                  <div className="w-[60px] h-[60px] rounded-full">
+                    <img
+                      className="w-full h-full rounded-full"
+                      src={user1}
+                      alt=""
+                    />
+                  </div>
+                  <h6 className="text-[#323B47] text-2xl font-semibold uppercase">
+                    Alex R
+                  </h6>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <span className="text-lg font-semibold">4.9</span>
+                  <i>
+                    <FaStar className="text-[#FF6600]"></FaStar>
+                  </i>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-[588px] p-6 rounded-[30px] mx-auto">
+              <p className="text-lg text-[#242A33] mb-[30px]">
+                Finally, a product that actually helps with my snoring! My
+                partner sleeps better, and so do I.
+              </p>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2.5">
+                  <div className="w-[60px] h-[60px] rounded-full">
+                    <img
+                      className="w-full h-full rounded-full"
+                      src={user1}
+                      alt=""
+                    />
+                  </div>
+                  <h6 className="text-[#323B47] text-2xl font-semibold uppercase">
+                    Alex R
+                  </h6>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <span className="text-lg font-semibold">4.9</span>
+                  <i>
+                    <FaStar className="text-[#FF6600]"></FaStar>
+                  </i>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      
+      {/* Custom Navigation Buttons */}
+      <div className="flex justify-center gap-4 mt-10">
+        <button className="custom-next text-[#121212] text-xl border border-[#121212] p-3 rounded-full hover:bg-[#121212] hover:text-white transition duration-300 -translate-y-[150px] -translate-x-[350px]" onClick={console.log("iiii")}>
+          <HiArrowLeft />
+        </button>
+        <button className="custom-prev text-[#121212] text-xl border border-[#121212] p-3 rounded-full hover:bg-[#121212] hover:text-white transition duration-300 -translate-y-[150px] translate-x-[350px]">
+          <HiArrowRight />
+        </button>
+      </div>
+    </section>
+  );
+};
+
+export default Testimonial;

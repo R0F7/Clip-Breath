@@ -11,3 +11,7 @@ body {
 .font-poppins {
   font-family: "Poppins", serif;
 }
+
+.testimonial-shadow {
+  box-shadow: 0px 25px 52px -12px rgba(17, 17, 17, 0.1);
+}
