@@ -4,6 +4,7 @@ import HowItWorks from "./component/HowItWorks/HowItWorks";
 import Navbar from "./component/Navbar/Navbar";
 import Overview from "./component/Overview/Overview";
 import ProductDetails from "./component/ProductDetails/ProductDetails";
+import ProductInfo from "./component/ProductInfo/ProductInfo";
 import Results from "./component/Results/Results";
 import Testimonial from "./component/Testimonial/Testimonial";
 import WhyChoose from "./component/WhyChoose/WhyChoose";
@@ -20,6 +21,7 @@ const App = () => {
       <HowItWorks></HowItWorks>
       <Results></Results>
       <Feedback></Feedback>
+      <ProductInfo></ProductInfo>
     </main>
   );
 };
