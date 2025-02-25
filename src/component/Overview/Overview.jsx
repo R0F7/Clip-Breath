@@ -9,7 +9,7 @@ const Overview = () => {
         {/* left part */}
         <div className="flex items-center gap-12">
           <div>
-            <img src={image} alt="" />
+            <img src={image} alt="overview image" />
           </div>
           <div className="text-white">
             <h4 className="text-5xl font-semibold ">Pain Points</h4>
@@ -47,7 +47,7 @@ const Overview = () => {
         {/* right part */}
         <div className="flex items-center flex-row-reverse gap-12">
           <div>
-            <img src={image1} alt="" />
+            <img src={image1} alt="overview image 2" />
           </div>
           <div className="text-white">
             <h4 className="text-5xl font-semibold ">Pain Points</h4>
@@ -55,9 +55,7 @@ const Overview = () => {
               Struggling with Snoring or Congestion?
             </h6>
             <p className="font-medium mb-6 w-[584px] font-poppins">
-              Whether it's snoring, allergies, or breathing difficulties during
-              exercise, our nasal clip is here to help. These issues can disrupt
-              your sleep, lower your energy, and impact your quality of life.
+              Our nasal clip is scientifically designed to fits seamlessly into your daily routine.
             </p>
             <ul className="space-y-4 font-semibold">
               <li className="text-white flex items-center">
