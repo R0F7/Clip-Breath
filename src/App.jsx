@@ -3,6 +3,7 @@ import HowItWorks from "./component/HowItWorks/HowItWorks";
 import Navbar from "./component/Navbar/Navbar";
 import Overview from "./component/Overview/Overview";
 import ProductDetails from "./component/ProductDetails/ProductDetails";
+import Results from "./component/Results/Results";
 import Testimonial from "./component/Testimonial/Testimonial";
 import WhyChoose from "./component/WhyChoose/WhyChoose";
 
@@ -16,6 +17,7 @@ const App = () => {
       <WhyChoose></WhyChoose>
       <Testimonial></Testimonial>
       <HowItWorks></HowItWorks>
+      <Results></Results>
     </main>
   );
 };
