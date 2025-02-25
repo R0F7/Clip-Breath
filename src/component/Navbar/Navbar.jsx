@@ -1,11 +1,11 @@
-import { GoArrowRight } from "react-icons/go";
+import Button from "../Button/Button";
 
 const Navbar = () => {
   return (
     <section className="container mx-auto flex items-center justify-between py-6">
       {/* logo */}
       <div>
-        <h4 className="text-[#FF6600] font-bold text-lg">ClipBreath</h4>
+        <h4 className="text-[#FF6600] font-bold text-3xl">ClipBreath</h4>
       </div>
 
       {/* menu items */}
@@ -24,12 +24,7 @@ const Navbar = () => {
       </div>
 
       {/* button */}
-      <button className="flex items-center gap-2.5 bg-[#FF6600] text-white px-5 py-2 rounded-full">
-        Contact Us
-        <i>
-          <GoArrowRight />
-        </i>
-      </button>
+      <Button text={"Contact Us"} px={"20px"} py={"10px"}></Button>
     </section>
   );
 };
