@@ -1,4 +1,5 @@
 import Banner from "./component/Banner/Banner";
+import Feedback from "./component/Feedback/Feedback";
 import HowItWorks from "./component/HowItWorks/HowItWorks";
 import Navbar from "./component/Navbar/Navbar";
 import Overview from "./component/Overview/Overview";
@@ -18,6 +19,7 @@ const App = () => {
       <Testimonial></Testimonial>
       <HowItWorks></HowItWorks>
       <Results></Results>
+      <Feedback></Feedback>
     </main>
   );
 };
