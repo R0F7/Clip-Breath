@@ -1,4 +1,5 @@
 import Banner from "./component/Banner/Banner";
+import HowItWorks from "./component/HowItWorks/HowItWorks";
 import Navbar from "./component/Navbar/Navbar";
 import Overview from "./component/Overview/Overview";
 import ProductDetails from "./component/ProductDetails/ProductDetails";
@@ -14,6 +15,7 @@ const App = () => {
       <Overview></Overview>
       <WhyChoose></WhyChoose>
       <Testimonial></Testimonial>
+      <HowItWorks></HowItWorks>
     </main>
   );
 };
