@@ -79,11 +79,11 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="container mx-auto py-20">
-      <h1 className="text-[#070707] text-5xl font-semibold mb-12 text-center">
+    <section className="container mx-auto py-10 lg:py-20 px-4 md:px-0">
+      <h1 className="text-[#070707] text-3xl lg:text-5xl font-semibold mb-6 lg:mb-12 text-center">
         Common Questions
       </h1>
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid lg:grid-cols-2 lg:gap-6">
         <div>
           {items.slice(0, 3).map((item) => (
             <div key={item.id} className="">
@@ -95,9 +95,9 @@ const FAQ = () => {
                 <AccordionSummary
                   expandIcon={
                     expanded === item.id ? (
-                      <FiMinus className="border border-[#DADDE3] w-7 h-7 p-1 rounded-full" />
+                      <FiMinus className="border border-[#DADDE3] w-5 h-5 lg:w-7 lg:h-7 p-1 rounded-full" />
                     ) : (
-                      <GoPlus className="border border-[#DADDE3] w-7 h-7 p-1 rounded-full" />
+                      <GoPlus className="border border-[#DADDE3] w-5 h-5 lg:w-7 lg:h-7 p-1 rounded-full" />
                     )
                   }
                   className="accordion-title"

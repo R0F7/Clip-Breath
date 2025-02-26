@@ -1,3 +1,4 @@
+import Advertising from "./component/Advertising/Advertising";
 import Banner from "./component/Banner/Banner";
 import ChoosePlan from "./component/ChoosePlan/ChoosePlan";
 import FAQ from "./component/FAQ/FAQ";
@@ -14,7 +15,7 @@ import WhyChoose from "./component/WhyChoose/WhyChoose";
 
 const App = () => {
   return (
-    <main>
+    <main className="">
       <Navbar></Navbar>
       <Banner></Banner>
       <ProductDetails></ProductDetails>
@@ -26,6 +27,7 @@ const App = () => {
       <Feedback></Feedback>
       <ProductInfo></ProductInfo>
       <FAQ></FAQ>
+      <Advertising></Advertising>
       <ChoosePlan></ChoosePlan>
       <Footer></Footer>
     </main>

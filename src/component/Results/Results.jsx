@@ -5,27 +5,27 @@ import { IoCheckmarkSharp } from "react-icons/io5";
 
 const Results = () => {
   return (
-    <section className="container mx-auto py-20">
+    <section className="container mx-auto py-10 lg:py-20 px-4 md:px-0">
       <div className="text-center">
-        <h1 className="text-[#070707] text-5xl font-semibold leading-[55px]">
+        <h1 className="text-[#070707] text-3xl leading-none lg:text-5xl font-semibold lg:leading-[55px]">
           Real Results You <br /> Can Feel
         </h1>
-        <p className="w-[634px] mx-auto font-poppins pt-3 mb-12">
+        <p className="w-full lg:w-[356px] mx-auto font-poppins pt-3 mb-6 lg:mb-12">
           See the difference our nasal clip can make for snoring and airflow.
         </p>
       </div>
 
-      <div className="flex gap-12">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         {/* before section */}
-        <div>
-          <div>
-            <img src={before} alt="before" />
+        <div className="w-full lg:w-1/2">
+          <div className="w-full">
+            <img className="w-full h-[300px] md:h-[370px] lg:h-[494px]" src={before} alt="before" />
           </div>
-          <ul className="mt-12 space-y-[42px] w-[595px]">
+          <ul className="mt-6 lg:mt-12 space-y-5 lg:space-y-[42px] w-full lg:w-[595px]">
             <li>
               <div className="flex gap-2">
-                <RxCross2 className=" w-7 h-7 bg-[#4A4C56] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#4A4C56] text-2xl font-semibold mb-4">
+                <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
+                <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Flimsy
                 </h2>
               </div>
@@ -36,8 +36,8 @@ const Results = () => {
             </li>
             <li>
               <div className="flex gap-2">
-                <RxCross2 className=" w-7 h-7 bg-[#4A4C56] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#4A4C56] text-2xl font-semibold mb-4">
+                <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
+                <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Unsupportive
                 </h2>
               </div>
@@ -47,8 +47,8 @@ const Results = () => {
             </li>
             <li>
               <div className="flex gap-2">
-                <RxCross2 className=" w-7 h-7 bg-[#4A4C56] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#4A4C56] text-2xl font-semibold mb-4">
+                <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
+                <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Falls off
                 </h2>
               </div>
@@ -58,8 +58,8 @@ const Results = () => {
             </li>
             <li>
               <div className="flex gap-2">
-                <RxCross2 className=" w-7 h-7 bg-[#4A4C56] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#4A4C56] text-2xl font-semibold mb-4">
+                <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
+                <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Hurts your skin
                 </h2>
               </div>
@@ -71,8 +71,8 @@ const Results = () => {
             </li>
             <li>
               <div className="flex items-cente gap-2">
-                <RxCross2 className=" w-7 h-7 bg-[#4A4C56] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#4A4C56] text-2xl font-semibold mb-4">
+                <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
+                <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Pulls forward
                 </h2>
               </div>
@@ -85,15 +85,15 @@ const Results = () => {
         </div>
 
         {/* after section */}
-        <div>
-          <div>
-            <img src={after} alt="after" />
+        <div className="w-full lg:w-1/2">
+          <div className="w-full">
+            <img className="w-full h-[300px] md:h-[370px] lg:h-[494px]" src={after} alt="after" />
           </div>
-          <ul className="mt-12 space-y-6 w-[600px]">
+          <ul className="mt-6 lg:mt-12 space-y-5 lg:space-y-6 w-full lg:w-[600px]">
             <li>
               <div className="flex gap-2">
-                <IoCheckmarkSharp className=" w-7 h-7 bg-[#FF6600] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#070707] text-2xl font-semibold mb-4">
+                <IoCheckmarkSharp className="w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
+                <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Actually opens your nose
                 </h2>
               </div>
@@ -104,8 +104,8 @@ const Results = () => {
             </li>
             <li>
               <div className="flex gap-2">
-                <IoCheckmarkSharp className=" w-7 h-7 bg-[#FF6600] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#070707] text-2xl font-semibold mb-4">
+                <IoCheckmarkSharp className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
+                <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Durable
                 </h2>
               </div>
@@ -116,8 +116,8 @@ const Results = () => {
             </li>
             <li>
               <div className="flex gap-2">
-                <IoCheckmarkSharp className=" w-7 h-7 bg-[#FF6600] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#070707] text-2xl font-semibold mb-4">
+                <IoCheckmarkSharp className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
+                <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Stays on all day/night{" "}
                 </h2>
               </div>
@@ -128,8 +128,8 @@ const Results = () => {
             </li>
             <li>
               <div className="flex gap-2">
-                <IoCheckmarkSharp className=" w-7 h-7 bg-[#FF6600] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#070707] text-2xl font-semibold mb-4">
+                <IoCheckmarkSharp className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
+                <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Skin safe
                 </h2>
               </div>
@@ -141,8 +141,8 @@ const Results = () => {
             </li>
             <li>
               <div className="flex gap-2">
-                <IoCheckmarkSharp className=" w-7 h-7 bg-[#FF6600] p-1 mt-0.5 text-white rounded-full" />
-                <h2 className="text-[#070707] text-2xl font-semibold mb-4">
+                <IoCheckmarkSharp className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
+                <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
                   Pulls outward
                 </h2>
               </div>

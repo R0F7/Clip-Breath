@@ -40,17 +40,17 @@ const Slider = () => {
 
           <SwiperSlide>
             <div
-              className="h-[408px] w-[795px] bg-cover bg-center rounded-2xl flex items-end relative p-12"
+              className="h-[250px] md:h-[300px] lg:h-[408px] w-[795px] bg-cover bg-center rounded-2xl flex items-end relative p-6 lg:p-12"
               style={{
                 backgroundImage:
                   "linear-gradient(270deg,  rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url('/src/assets/sliderImage/slider image 1.png')",
               }}
             >
               <div className="">
-                <h2 className="text-[#070707] font-semibold text-[40px] mb-4">
+                <h2 className="text-[#070707] font-semibold text-4xl lg:text-[40px] mb-1 lg:mb-4">
                   Reduces Snoring
                 </h2>
-                <p className="text-[#070707] font-medium w-[485px] font-poppins">
+                <p className="text-[#070707] font-medium w-[320px] md:w-[485px] font-poppins">
                   Our nasal clip is scientifically designed to fits seamlessly
                   into your daily routine.
                 </p>
@@ -60,17 +60,17 @@ const Slider = () => {
 
           <SwiperSlide>
             <div
-              className="h-[408px] w-[795px] bg-cover bg-center rounded-2xl flex items-end relative p-12"
+              className="h-[250px] md:h-[300px] lg:h-[408px] w-[795px] bg-cover bg-center rounded-2xl flex items-end relative p-6 lg:p-12"
               style={{
                 backgroundImage:
                   "linear-gradient(270deg,  rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url('/src/assets/sliderImage/slider image 2.jpg')",
               }}
             >
               <div className="">
-                <h2 className="text-[#070707] font-semibold text-[40px] mb-4">
+                <h2 className="text-[#070707] font-semibold text-4xl lg:text-[40px] mb-1 lg:mb-4">
                   Reduces Snoring
                 </h2>
-                <p className="text-[#070707] font-medium w-[485px] font-poppins">
+                <p className="text-[#070707] font-medium w-[320px] md:w-[485px] font-poppins">
                   Our nasal clip is scientifically designed to fits seamlessly
                   into your daily routine.
                 </p>
@@ -80,17 +80,17 @@ const Slider = () => {
 
           <SwiperSlide>
             <div
-              className="h-[408px] w-[795px] bg-cover bg-center rounded-2xl flex items-end relative p-12"
+              className="h-[250px] md:h-[300px] lg:h-[408px] w-[795px] bg-cover bg-center rounded-2xl flex items-end relative p-6 lg:p-12"
               style={{
                 backgroundImage:
                   "linear-gradient(270deg,  rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url('/src/assets/sliderImage/slider image 3.webp')",
               }}
             >
               <div className="">
-                <h2 className="text-[#070707] font-semibold text-[40px] mb-4">
+                <h2 className="text-[#070707] font-semibold text-4xl lg:text-[40px] mb-1 lg:mb-4">
                   Reduces Snoring
                 </h2>
-                <p className="text-[#070707] font-medium w-[485px] font-poppins">
+                <p className="text-[#070707] font-medium w-[320px] md:w-[485px] font-poppins">
                   Our nasal clip is scientifically designed to fits seamlessly
                   into your daily routine.
                 </p>

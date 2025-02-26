@@ -6,26 +6,25 @@ import Zachika from "../../assets/Zachika.png";
 
 const Feedback = () => {
   return (
-    <section className="container mx-auto py-20">
-      <h2 className="text-[#161721] text-4xl font-bold mb-[56px]">
+    <section className="container mx-auto py-10 lg:py-20 px-4 md:px-0">
+      <h2 className="text-[#161721] text-3xl lg:text-5xl font-bold mb-8 lg:mb-[56px]">
         Customer Feedback
       </h2>
 
       {/* feedbacks */}
       <div>
-        <div className="border-t pt-10">
-          <div className="flex justify-between mb-8">
-            <div className="flex items-center gap-4">
-              <div>
-                <img src={Ellipse} alt="Ellipse" />
+        <div className="border-t pt-5 lg:pt-10">
+          <div className="flex justify-between mb-4 lg:mb-8">
+            <div className="flex items-center gap-2 lg:gap-4">
+              <div className="w-10 lg:w-auto">
+                <img className="w-full h-full" src={Ellipse} alt="Ellipse" />
               </div>
-              <h3 className="text-[#161721] font-bold text-[40px]">
+              <h3 className="text-[#161721] font-bold text-lg md:text-2xl lg:text-[40px]">
                 Arlene McCoy
               </h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
+                className="w-6 h-6 lg:w-10 lg:h-10"
                 viewBox="0 0 32 32"
                 fill="none"
               >
@@ -47,13 +46,13 @@ const Feedback = () => {
               </svg>
             </div>
             <div>
-              <button className="px-6 py-3 bg-[rgba(159,203,204,0.23)] border border-[#C3DAD6] rounded-[10px]">
+              <button className="px-3 py-2 lg:px-6 lg:py-3 bg-[rgba(159,203,204,0.23)] border border-[#C3DAD6] rounded-[10px]">
                 1 Week Ago
               </button>
             </div>
           </div>
-          <div className="flex gap-4 mb-4">
-            <ul className="flex gap-2.5 text-xl mt-1">
+          <div className="flex gap-2 lg:gap-4 mb-4">
+            <ul className="flex gap-1 lg:gap-2.5 text-lg lg:text-xl mt-1">
               <li>
                 <FaStar className="text-[#FAAF3E]"></FaStar>
               </li>
@@ -72,11 +71,10 @@ const Feedback = () => {
             </ul>
 
             <span className="w-0.5 h-8 bg-[#A5A5AB]"></span>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2 lg:gap-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
+                className="w-6 h-6 lg:w-8 lg:h-8"
                 viewBox="0 0 32 32"
                 fill="none"
               >
@@ -88,7 +86,7 @@ const Feedback = () => {
               <p className="text-[#1D1F2C] text-lg font-medium">(1.5K)</p>
             </div>
           </div>
-          <p className="text-[#4A4C56] text-xl font-poppins w-[825px]">
+          <p className="text-[#4A4C56] text-base lg:text-xl font-poppins w-full lg:w-[825px]">
             This nasal clip has helped me reduce snoring and breathe easier at
             night. Comfortable and barely noticeable!
           </p>
@@ -97,19 +95,18 @@ const Feedback = () => {
           </div>
         </div>
 
-        <div className="border-t pt-10">
-          <div className="flex justify-between mb-8">
-            <div className="flex items-center gap-4">
-              <div>
-                <img src={Elliza} alt="Elliza" />
+        <div className="border-t pt-5 lg:pt-10">
+          <div className="flex justify-between mb-4 lg:mb-8">
+            <div className="flex items-center gap-2 lg:gap-4">
+              <div className="w-10 lg:w-auto">
+                <img className="w-full h-full" src={Elliza} alt="Elliza" />
               </div>
-              <h3 className="text-[#161721] font-bold text-[40px]">
+              <h3 className="text-[#161721] font-bold text-lg md:text-2xl lg:text-[40px]">
                 Ralph Edwards
               </h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
+                className="w-6 h-6 lg:w-10 lg:h-10"
                 viewBox="0 0 32 32"
                 fill="none"
               >
@@ -131,13 +128,13 @@ const Feedback = () => {
               </svg>
             </div>
             <div>
-              <button className="px-6 py-3 bg-[rgba(159,203,204,0.23)] border border-[#C3DAD6] rounded-[10px]">
+              <button className="px-3 py-2 lg:px-6 lg:py-3 bg-[rgba(159,203,204,0.23)] border border-[#C3DAD6] rounded-[10px]">
                 1 Week Ago
               </button>
             </div>
           </div>
-          <div className="flex gap-4 mb-4">
-            <ul className="flex gap-2.5 text-xl mt-1">
+          <div className="flex gap-2 lg:gap-4 mb-4">
+            <ul className="flex gap-1 lg:gap-2.5 text-lg lg:text-xl mt-1">
               <li>
                 <FaStar className="text-[#FAAF3E]"></FaStar>
               </li>
@@ -154,12 +151,12 @@ const Feedback = () => {
                 <FaStar className="text-[#FAAF3E]"></FaStar>
               </li>
             </ul>
+
             <span className="w-0.5 h-8 bg-[#A5A5AB]"></span>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2 lg:gap-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
+                className="w-6 h-6 lg:w-8 lg:h-8"
                 viewBox="0 0 32 32"
                 fill="none"
               >
@@ -171,7 +168,7 @@ const Feedback = () => {
               <p className="text-[#1D1F2C] text-lg font-medium">(1.5K)</p>
             </div>
           </div>
-          <p className="text-[#4A4C56] text-xl font-poppins w-[825px]">
+          <p className="text-[#4A4C56] text-base lg:text-xl font-poppins w-full lg:w-[825px]">
             I use this nasal clip during my runs, and it really improves
             airflow. I can breathe more freely and last longer during intense
             sessions.
@@ -181,19 +178,18 @@ const Feedback = () => {
           </div>
         </div>
 
-        <div className="border-t pt-10">
-          <div className="flex justify-between mb-8">
-            <div className="flex items-center gap-4">
-              <div>
-                <img src={Zachika} alt="Zachika" />
+        <div className="border-t pt-5 lg:pt-10">
+          <div className="flex justify-between mb-4 lg:mb-8">
+            <div className="flex items-center gap-2 lg:gap-4">
+              <div className="w-10 lg:w-auto">
+                <img className="w-full h-full" src={Zachika} alt="Zachika" />
               </div>
-              <h3 className="text-[#161721] font-bold text-[40px]">
+              <h3 className="text-[#161721] font-bold text-lg md:text-2xl lg:text-[40px]">
                 Cameron Williamson
               </h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
+                className="w-6 h-6 lg:w-10 lg:h-10"
                 viewBox="0 0 32 32"
                 fill="none"
               >
@@ -215,13 +211,13 @@ const Feedback = () => {
               </svg>
             </div>
             <div>
-              <button className="px-6 py-3 bg-[rgba(159,203,204,0.23)] border border-[#C3DAD6] rounded-[10px]">
+              <button className="px-3 py-2 lg:px-6 lg:py-3 bg-[rgba(159,203,204,0.23)] border border-[#C3DAD6] rounded-[10px]">
                 1 Week Ago
               </button>
             </div>
           </div>
-          <div className="flex gap-4 mb-4">
-            <ul className="flex gap-2.5 text-xl mt-1">
+          <div className="flex gap-2 lg:gap-4 mb-4">
+            <ul className="flex gap-1 lg:gap-2.5 text-lg lg:text-xl mt-1">
               <li>
                 <FaStar className="text-[#FAAF3E]"></FaStar>
               </li>
@@ -238,12 +234,12 @@ const Feedback = () => {
                 <FaStar className="text-[#FAAF3E]"></FaStar>
               </li>
             </ul>
+
             <span className="w-0.5 h-8 bg-[#A5A5AB]"></span>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2 lg:gap-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
+                className="w-6 h-6 lg:w-8 lg:h-8"
                 viewBox="0 0 32 32"
                 fill="none"
               >
@@ -255,7 +251,7 @@ const Feedback = () => {
               <p className="text-[#1D1F2C] text-lg font-medium">(1.5K)</p>
             </div>
           </div>
-          <p className="text-[#4A4C56] text-xl font-poppins w-[825px]">
+          <p className="text-[#4A4C56] text-base lg:text-xl font-poppins w-full lg:w-[825px]">
             I’ve been using the nasal clip to combat my chronic nasal
             congestion, and it’s made a world of difference. Highly effective
             and comfortable!
