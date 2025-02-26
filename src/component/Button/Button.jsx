@@ -44,6 +44,7 @@ const Button = ({ text, px, py, width }) => {
           ${px ? `px-${px}` : ""} 
           ${py ? `py-${py}` : ""}
         `}
+        data-aos="fade-up" data-aos-duration="1000"
       >
         {text}
         <i>

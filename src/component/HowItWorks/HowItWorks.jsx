@@ -8,24 +8,24 @@ const HowItWorks = () => {
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-0">
           {/* img */}
           <div className="w-full lg:w-1/2">
-            <div className="text-white">
-              <h2 className="text-3xl lg:text-5xl font-semibold mb-4">
+            <div className="text-white" >
+              <h2 className="text-3xl lg:text-5xl font-semibold mb-4" data-aos="fade-up" data-aos-duration="1000">
                 How It Works
               </h2>
-              <p className="font-medium mb-8 w-full lg:w-[584px] font-poppins">
+              <p className="font-medium mb-8 w-full lg:w-[584px] font-poppins" data-aos="fade-up" data-aos-duration="1000">
                 Using our nasal clip is effortless and effective. Follow these
                 steps to enjoy better airflow and relief from snoring or
                 congestion.
               </p>
             </div>
             <div className="flex justify-center lg:justify-start">
-              <img className="md:w-[450px] lg:w-auto" src={face} alt="face" />
+              <img className="md:w-[450px] lg:w-auto" src={face} alt="face" data-aos="zoom-in" data-aos-duration="1000"/>
             </div>
           </div>
 
           {/* card  */}
           <div className="w-full lg:w-1/2 space-y-4">
-            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative group hover:bg-[#F60] transition duration-300">
+            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative group hover:bg-[#F60] transition duration-300" data-aos="fade-up" data-aos-duration="1000">
               <h4 className="text-2xl font-semibold mb-3">Clean</h4>
               <p className="font-poppins text-sm lg:text-base">
                 Clean your nose thoroughly to remove any dirt or oil from the
@@ -38,7 +38,7 @@ const HowItWorks = () => {
                 Step 1
               </span>
             </div>
-            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative group hover:bg-[#F60] transition duration-300">
+            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative group hover:bg-[#F60] transition duration-300" data-aos="fade-up" data-aos-duration="1200">
               <h4 className="text-2xl font-semibold mb-3">Apply</h4>
               <p className="font-poppins font-light  text-sm lg:text-base">
                 Using the Applicator. apply one adhesive Tab to each side Of
@@ -50,7 +50,7 @@ const HowItWorks = () => {
                 Step 2
               </span>
             </div>
-            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative group hover:bg-[#F60] transition duration-300">
+            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative group hover:bg-[#F60] transition duration-300" data-aos="fade-up" data-aos-duration="1400">
               <h4 className="text-2xl font-semibold mb-3">Tab placement</h4>
               <p className="font-poppins text-sm lg:text-base">
                 There are some tips to use I-I-Will.
@@ -71,7 +71,7 @@ const HowItWorks = () => {
                 Step 3
               </span>
             </div>
-            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative group hover:bg-[#F60] transition duration-300">
+            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative group hover:bg-[#F60] transition duration-300" data-aos="fade-up" data-aos-duration="1800">
               <h4 className="text-2xl font-semibold mb-3">Attach</h4>
               <p className="font-poppins  text-sm lg:text-base ">
                 Place the U-will band over your nose. The magnetic ends of the
@@ -89,19 +89,19 @@ const HowItWorks = () => {
         {/* second part */}
         <div className="mt-12 flex items-end flex-col-reverse lg:flex-row gap-8 lg:gap-14">
           <div className="space-y-4 w-full lg:w-1/2">
-            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative">
+            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative" data-aos="fade-up" data-aos-duration="1000">
               <h4 className="text-2xl font-semibold mb-4">4 Bands</h4>
               <p className=" font-poppins">
                 You can easily choose which works best for you.
               </p>
             </div>
-            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative">
+            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative" data-aos="fade-up" data-aos-duration="1200">
               <h4 className="text-2xl font-semibold mb-4">15 or 30 Tabs</h4>
               <p className="text-sm font-poppins">
                 Tabs are made with 3M tape, they're safe for sensitive skin
               </p>
             </div>
-            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative">
+            <div className="p-6 text-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[5px] rounded-xl relative" data-aos="fade-up" data-aos-duration="1400">
               <h4 className="text-2xl font-semibold mb-4">Applicator</h4>
               <p className="text-sm font-poppins">
                 Use magnetic Applicatorto pick up and attach Tab precisely.
@@ -113,7 +113,7 @@ const HowItWorks = () => {
             <h2 className="text-3xl lg:text-5xl font-semibold text-white mb-8">
               What’s in start kit
             </h2>
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center lg:justify-start" data-aos="zoom-in">
               <img
                 className="md:w-[450px] lg:w-auto"
                 src={Product_image}

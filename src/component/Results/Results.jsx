@@ -6,11 +6,19 @@ import { IoCheckmarkSharp } from "react-icons/io5";
 const Results = () => {
   return (
     <section className="container mx-auto py-10 lg:py-20 px-4 md:px-0">
-      <div className="text-center">
-        <h1 className="text-[#070707] text-3xl leading-none lg:text-5xl font-semibold lg:leading-[55px]">
+      <div className="text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h1
+          className="text-[#070707] text-3xl leading-none lg:text-5xl font-semibold lg:leading-[55px]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Real Results You <br /> Can Feel
         </h1>
-        <p className="w-full lg:w-[356px] mx-auto font-poppins pt-3 mb-6 lg:mb-12">
+        <p
+          className="w-full lg:w-[356px] mx-auto font-poppins pt-3 mb-6 lg:mb-12"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           See the difference our nasal clip can make for snoring and airflow.
         </p>
       </div>
@@ -19,10 +27,16 @@ const Results = () => {
         {/* before section */}
         <div className="w-full lg:w-1/2">
           <div className="w-full">
-            <img className="w-full h-[300px] md:h-[370px] lg:h-[494px]" src={before} alt="before" />
+            <img
+              className="w-full h-[300px] md:h-[370px] lg:h-[494px]"
+              src={before}
+              alt="before"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            />
           </div>
           <ul className="mt-6 lg:mt-12 space-y-5 lg:space-y-[42px] w-full lg:w-[595px]">
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1000">
               <div className="flex gap-2">
                 <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
                 <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
@@ -34,7 +48,7 @@ const Results = () => {
                 can still collapse,
               </p>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1200">
               <div className="flex gap-2">
                 <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
                 <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
@@ -45,7 +59,7 @@ const Results = () => {
                 Nasal strips don't hold your nose open as wide as Intake.
               </p>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1400">
               <div className="flex gap-2">
                 <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
                 <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
@@ -56,7 +70,7 @@ const Results = () => {
                 Don't wake up With your nasal strip stuck to your Pillow again.
               </p>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1600">
               <div className="flex gap-2">
                 <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
                 <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
@@ -69,7 +83,7 @@ const Results = () => {
                 it,
               </p>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1800">
               <div className="flex items-cente gap-2">
                 <RxCross2 className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#4A4C56] p-1 text-white rounded-full" />
                 <h2 className="text-[#4A4C56] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
@@ -87,10 +101,16 @@ const Results = () => {
         {/* after section */}
         <div className="w-full lg:w-1/2">
           <div className="w-full">
-            <img className="w-full h-[300px] md:h-[370px] lg:h-[494px]" src={after} alt="after" />
+            <img
+              className="w-full h-[300px] md:h-[370px] lg:h-[494px]"
+              src={after}
+              alt="after"
+              data-aos="zoom-in" data-aos-duration="1000"
+            />
           </div>
           <ul className="mt-6 lg:mt-12 space-y-5 lg:space-y-6 w-full lg:w-[600px]">
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1000"
+>
               <div className="flex gap-2">
                 <IoCheckmarkSharp className="w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
                 <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
@@ -102,7 +122,8 @@ const Results = () => {
                 wear. We can open your nose up to 100% more,
               </p>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1200"
+>
               <div className="flex gap-2">
                 <IoCheckmarkSharp className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
                 <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
@@ -114,7 +135,8 @@ const Results = () => {
                 where you want it, as long as you want it.
               </p>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1400"
+>
               <div className="flex gap-2">
                 <IoCheckmarkSharp className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
                 <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
@@ -126,7 +148,8 @@ const Results = () => {
                 keeping your nasal passages open for uninterrupted breathing,
               </p>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1600"
+>
               <div className="flex gap-2">
                 <IoCheckmarkSharp className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
                 <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">
@@ -139,7 +162,8 @@ const Results = () => {
                 your skin stays where it belongs-—on your nose.
               </p>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1800"
+>
               <div className="flex gap-2">
                 <IoCheckmarkSharp className=" w-5 lg:w-7 h-5 lg:h-7 mt-1 lg:mt-0.5 bg-[#FF6600] p-1 text-white rounded-full" />
                 <h2 className="text-[#070707] text-xl lg:text-2xl font-semibold mb-2 lg:mb-4">

@@ -80,7 +80,8 @@ const FAQ = () => {
 
   return (
     <section className="container mx-auto py-10 lg:py-20 px-4 md:px-0">
-      <h1 className="text-[#070707] text-3xl lg:text-5xl font-semibold mb-6 lg:mb-12 text-center">
+      <h1 className="text-[#070707] text-3xl lg:text-5xl font-semibold mb-6 lg:mb-12 text-center" data-aos="fade-up" data-aos-duration="1000"
+      >
         Common Questions
       </h1>
       <div className="grid lg:grid-cols-2 lg:gap-6">
@@ -91,6 +92,8 @@ const FAQ = () => {
                 expanded={expanded === item.id || ind === item.index}
                 onChange={handleChange(item.id)}
                 className="accordion"
+                data-aos="fade-up"
+                data-aos-duration="1000"
               >
                 <AccordionSummary
                   expandIcon={
@@ -118,6 +121,8 @@ const FAQ = () => {
                 expanded={expanded === item.id}
                 onChange={handleChange(item.id)}
                 className="accordion"
+                data-aos="fade-up"
+                data-aos-duration="1000"
               >
                 <AccordionSummary
                   expandIcon={

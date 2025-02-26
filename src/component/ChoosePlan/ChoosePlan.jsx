@@ -1,15 +1,22 @@
+import Aos from "aos";
+import { useEffect } from "react";
 import { FaStar } from "react-icons/fa";
 import { IoCheckmarkSharp } from "react-icons/io5";
 
 const ChoosePlan = () => {
+  
+    useEffect(() => {
+      Aos.init();
+    }, []);
+
   return (
     <section className="container mx-auto py-6 lg:py-12 px-4 md:px-0">
-      <h1 className="text-[#F60] text-3xl lg:text-5xl font-semibold mb-8 lg:mb-[66px] text-center">
+      <h1 className="text-[#F60] text-3xl lg:text-5xl font-semibold mb-8 lg:mb-[66px] text-center" data-aos="fade-up">
         Choose the Best Plan for You
       </h1>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div className="border border-[#D2D2D5] rounded-2xl text-center group hover:cursor-pointer hover:scale-y-105 transition duration-300">
+        <div className="border border-[#D2D2D5] rounded-2xl text-center group hover:cursor-pointer hover:scale-y-105 transition duration-300" data-aos="zoom-in" data-aos-duration="1000">
           <div className="bg-[#FFF0E6] text-[#1D1F2C] p-4 lg:p-6 rounded-t-2xl group-hover:bg-[#F60] group-hover:text-white transition duration-300">
             <h4 className="text-xl lg:text-2xl font-semibold">
               1-month supply
@@ -77,7 +84,7 @@ const ChoosePlan = () => {
           </div>
         </div>
 
-        <div className="border border-[#D2D2D5] rounded-2xl text-center group hover:cursor-pointer hover:scale-y-105 transition duration-300">
+        <div className="border border-[#D2D2D5] rounded-2xl text-center group hover:cursor-pointer hover:scale-y-105 transition duration-300" data-aos="zoom-in" data-aos-duration="1400">
           <div className="bg-[#FFF0E6] text-[#1D1F2C] p-4 lg:p-6 rounded-t-2xl group-hover:bg-[#F60] group-hover:text-white transition duration-300">
             <h4 className="text-xl lg:text-2xl font-semibold">
               1-month supply
@@ -145,7 +152,7 @@ const ChoosePlan = () => {
           </div>
         </div>
 
-        <div className="border border-[#D2D2D5] rounded-2xl text-center group hover:cursor-pointer hover:scale-y-105 transition duration-300">
+        <div className="border border-[#D2D2D5] rounded-2xl text-center group hover:cursor-pointer hover:scale-y-105 transition duration-300" data-aos="zoom-in" data-aos-duration="1700">
           <div className="bg-[#FFF0E6] text-[#1D1F2C] p-4 lg:p-6 rounded-t-2xl group-hover:bg-[#F60] group-hover:text-white transition duration-300">
             <h4 className="text-xl lg:text-2xl font-semibold">
               1-month supply
@@ -213,7 +220,7 @@ const ChoosePlan = () => {
           </div>
         </div>
 
-        <div className="border border-[#D2D2D5] rounded-2xl text-center group hover:cursor-pointer hover:scale-y-105 transition duration-300">
+        <div className="border border-[#D2D2D5] rounded-2xl text-center group hover:cursor-pointer hover:scale-y-105 transition duration-300" data-aos="zoom-in" data-aos-duration="2000">
           <div className="bg-[#FFF0E6] text-[#1D1F2C] p-4 lg:p-6 rounded-t-2xl group-hover:bg-[#F60] group-hover:text-white transition duration-300">
             <h4 className="text-xl lg:text-2xl font-semibold">
               1-month supply

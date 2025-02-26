@@ -5,15 +5,17 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import user1 from "../../assets/person .png";
+import user2 from "../../assets/Avatar (1).png";
 import { FaStar } from "react-icons/fa";
 
 const Testimonial = () => {
   return (
     <section className="lg:w-[800px] mx-auto py-10 px-4 md:px-0">
-      <h1 className="text-[#12151A] font-semibold text-3xl lg:text-5xl lg:mb-10 text-center">
+      <h1 className="text-[#12151A] font-semibold text-3xl lg:text-5xl lg:mb-10 text-center" data-aos="fade-up" data-aos-duration="1000"      >
         Loved by Thousands
       </h1>
-      <div className="relative">
+      <div className="relative" data-aos="zoom-in" data-aos-duration="1000"
+      >
         <Swiper
           speed={2500}
           parallax={true}
@@ -65,12 +67,12 @@ const Testimonial = () => {
                   <div className="w-10 md:w-[60px] h-10 md:h-[60px] rounded-full">
                     <img
                       className="w-full h-full rounded-full"
-                      src={user1}
+                      src={user2}
                       alt=""
                     />
                   </div>
                   <h6 className="text-[#323B47] text-xl lg:text-2xl font-semibold uppercase">
-                    Alex R
+                    Rion Riyaz
                   </h6>
                 </div>
                 <div className="flex items-center gap-2.5">
@@ -86,8 +88,8 @@ const Testimonial = () => {
       </div>
 
       {/* Custom Navigation Buttons */}
-      <div className="flex justify-center gap-4 ">
-        <button className="custom-next-unique text-[#121212] text-xl border border-[#121212] hover:border-[#F60] p-3 rounded-full hover:bg-[#F60] hover:text-white transition duration-300 lg:-translate-y-[150px] lg:-translate-x-[450px]">
+      <div className="flex justify-center gap-4 " >
+        <button className="custom-next-unique text-[#121212] text-xl border border-[#121212] hover:border-[#F60] p-3 rounded-full hover:bg-[#F60] hover:text-white transition duration-300 lg:-translate-y-[150px] lg:-translate-x-[450px]" >
           <HiArrowLeft />
         </button>
         <button className="custom-prev-unique text-[#121212] text-xl border border-[#121212] hover:border-[#F60] p-3 rounded-full hover:bg-[#F60] hover:text-white transition duration-300 lg:-translate-y-[150px] lg:translate-x-[450px]">

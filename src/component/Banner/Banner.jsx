@@ -12,7 +12,7 @@ const Banner = () => {
           "linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('/src/assets/banner-bg.png')",
       }}
     >
-      <div className="container mx-auto px-4 md:px-0">
+      <div className="container mx-auto px-4 md:px-0" data-aos="fade-up" data-aos-duration="1000"      >
         <div className="flex items-center -space-x-2.5 mb-1">
           <img src={Avatar} alt="Avatar" className="w-8 h-8 md:w-12 md:h-12" />
           <img

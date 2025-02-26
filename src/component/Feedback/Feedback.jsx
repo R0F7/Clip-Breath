@@ -7,14 +7,15 @@ import Zachika from "../../assets/Zachika.png";
 const Feedback = () => {
   return (
     <section className="container mx-auto py-10 lg:py-20 px-4 md:px-0">
-      <h2 className="text-[#161721] text-3xl lg:text-5xl font-bold mb-8 lg:mb-[56px]">
+      <h2 className="text-[#161721] text-3xl lg:text-5xl font-bold mb-8 lg:mb-[56px]" data-aos="fade-up" data-aos-duration="1000"
+      >
         Customer Feedback
       </h2>
 
       {/* feedbacks */}
       <div>
         <div className="border-t pt-5 lg:pt-10">
-          <div className="flex justify-between mb-4 lg:mb-8">
+          <div className="flex justify-between mb-4 lg:mb-8" data-aos="fade-up" data-aos-duration="1000"          >
             <div className="flex items-center gap-2 lg:gap-4">
               <div className="w-10 lg:w-auto">
                 <img className="w-full h-full" src={Ellipse} alt="Ellipse" />
@@ -51,7 +52,7 @@ const Feedback = () => {
               </button>
             </div>
           </div>
-          <div className="flex gap-2 lg:gap-4 mb-4">
+          <div className="flex gap-2 lg:gap-4 mb-4" data-aos="fade-up" data-aos-duration="1000"          >
             <ul className="flex gap-1 lg:gap-2.5 text-lg lg:text-xl mt-1">
               <li>
                 <FaStar className="text-[#FAAF3E]"></FaStar>
@@ -86,17 +87,18 @@ const Feedback = () => {
               <p className="text-[#1D1F2C] text-lg font-medium">(1.5K)</p>
             </div>
           </div>
-          <p className="text-[#4A4C56] text-base lg:text-xl font-poppins w-full lg:w-[825px]">
+          <p className="text-[#4A4C56] text-base lg:text-xl font-poppins w-full lg:w-[825px]" data-aos="fade-up" data-aos-duration="1000"          >
             This nasal clip has helped me reduce snoring and breathe easier at
             night. Comfortable and barely noticeable!
           </p>
-          <div className="my-6">
-            <img src={Feedback_Img} alt="Feedback Img" />
+          <div className="my-6" >
+            <img src={Feedback_Img} alt="Feedback Img" data-aos="zoom-in" data-aos-duration="1000"            />
           </div>
         </div>
 
         <div className="border-t pt-5 lg:pt-10">
-          <div className="flex justify-between mb-4 lg:mb-8">
+          <div className="flex justify-between mb-4 lg:mb-8" data-aos="fade-up" data-aos-duration="1000"
+          >
             <div className="flex items-center gap-2 lg:gap-4">
               <div className="w-10 lg:w-auto">
                 <img className="w-full h-full" src={Elliza} alt="Elliza" />
@@ -133,7 +135,8 @@ const Feedback = () => {
               </button>
             </div>
           </div>
-          <div className="flex gap-2 lg:gap-4 mb-4">
+          <div className="flex gap-2 lg:gap-4 mb-4" data-aos="fade-up" data-aos-duration="1000"
+          >
             <ul className="flex gap-1 lg:gap-2.5 text-lg lg:text-xl mt-1">
               <li>
                 <FaStar className="text-[#FAAF3E]"></FaStar>
@@ -168,18 +171,21 @@ const Feedback = () => {
               <p className="text-[#1D1F2C] text-lg font-medium">(1.5K)</p>
             </div>
           </div>
-          <p className="text-[#4A4C56] text-base lg:text-xl font-poppins w-full lg:w-[825px]">
+          <p className="text-[#4A4C56] text-base lg:text-xl font-poppins w-full lg:w-[825px]" data-aos="fade-up" data-aos-duration="1000"
+          >
             I use this nasal clip during my runs, and it really improves
             airflow. I can breathe more freely and last longer during intense
             sessions.
           </p>
-          <div className="my-6">
-            <img src={Feedback_Img} alt="Feedback Img" />
+          <div className="my-6" >
+            <img src={Feedback_Img} alt="Feedback Img" data-aos="zoom-in" data-aos-duration="1000"
+            />
           </div>
         </div>
 
         <div className="border-t pt-5 lg:pt-10">
-          <div className="flex justify-between mb-4 lg:mb-8">
+          <div className="flex justify-between mb-4 lg:mb-8" data-aos="fade-up" data-aos-duration="1000"
+          >
             <div className="flex items-center gap-2 lg:gap-4">
               <div className="w-10 lg:w-auto">
                 <img className="w-full h-full" src={Zachika} alt="Zachika" />
@@ -216,7 +222,8 @@ const Feedback = () => {
               </button>
             </div>
           </div>
-          <div className="flex gap-2 lg:gap-4 mb-4">
+          <div className="flex gap-2 lg:gap-4 mb-4" data-aos="fade-up" data-aos-duration="1000"
+          >
             <ul className="flex gap-1 lg:gap-2.5 text-lg lg:text-xl mt-1">
               <li>
                 <FaStar className="text-[#FAAF3E]"></FaStar>
@@ -251,13 +258,15 @@ const Feedback = () => {
               <p className="text-[#1D1F2C] text-lg font-medium">(1.5K)</p>
             </div>
           </div>
-          <p className="text-[#4A4C56] text-base lg:text-xl font-poppins w-full lg:w-[825px]">
+          <p className="text-[#4A4C56] text-base lg:text-xl font-poppins w-full lg:w-[825px]" data-aos="fade-up" data-aos-duration="1000"
+          >
             I’ve been using the nasal clip to combat my chronic nasal
             congestion, and it’s made a world of difference. Highly effective
             and comfortable!
           </p>
-          <div className="my-6">
-            <img src={Feedback_Img} alt="Feedback Img" />
+          <div className="my-6" >
+            <img src={Feedback_Img} alt="Feedback Img" data-aos="zoom-in" data-aos-duration="1000"
+            />
           </div>
         </div>
       </div>
