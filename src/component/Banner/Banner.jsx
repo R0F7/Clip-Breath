@@ -2,14 +2,18 @@ import Button from "../Button/Button";
 import Avatar from "../../assets/Avatar.png";
 import Avatar1 from "../../assets/Avatar (1).png";
 import Avatar2 from "../../assets/Avatar (2).png";
+import bg from '../../assets/banner-bg.png';
 
 const Banner = () => {
   return (
     <section
       className="h-[400px] lg:h-[720px] w-full bg-cover bg-center flex items-center"
+      // style={{
+      //   backgroundImage:
+      //     "linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('/src/assets/banner-bg.png')",
+      // }}
       style={{
-        backgroundImage:
-          "linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('/src/assets/banner-bg.png')",
+        backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(${bg})`,
       }}
     >
       <div className="container mx-auto px-4 md:px-0" data-aos="fade-up" data-aos-duration="1000"      >

@@ -12,8 +12,10 @@ const ProductInfo = () => {
             className="flex items-center justify-center col-span-1 h-[200px] lg:h-auto"
             style={{
               borderRadius: "31.687px",
-              background:
-                "linear-gradient(0deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.56) 100%), url('src/assets/image (1).png') lightgray 50% / cover no-repeat",
+              background: `linear-gradient(0deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.56) 100%), url(${testingImg})`,
+              backgroundSize: "cover",
+              backgroundPosition: "left",
+              backgroundRepeat: "no-repeat",
             }}
             data-aos="zoom-in"
             data-aos-duration="1000"
@@ -27,7 +29,12 @@ const ProductInfo = () => {
           </div>
 
           <div className="h-[300px] md:h-[400px] lg:h-[630.577px] flex-1 col-span-1 lg:col-span-3">
-            <img className="w-full h-full" src={image} alt="image 2" data-aos="zoom-in" data-aos-duration="1500"
+            <img
+              className="w-full h-full"
+              src={image}
+              alt="image 2"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
             />
           </div>
 
@@ -35,8 +42,10 @@ const ProductInfo = () => {
             className="-[287.562px] -[630.577px] flex items-center justify-center col-span-1 h-[200px] lg:h-auto"
             style={{
               borderRadius: "31.687px",
-              background:
-                "linear-gradient(0deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.56) 100%), url('src/assets/image (1).png') lightgray 50% / cover no-repeat",
+              background: `linear-gradient(0deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.56) 100%), url(${testingImg})`,
+              backgroundSize: "cover",
+              backgroundPosition: "right",
+              backgroundRepeat: "no-repeat",
             }}
             data-aos="zoom-in"
             data-aos-duration="2000"
@@ -53,26 +62,38 @@ const ProductInfo = () => {
         {/* second part */}
         <div className="pt-10 flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-12">
           <div className="text-white w-full lg:w-1/2">
-            <h1 className="text-3xl lg:text-5xl font-semibold mb-3.5" data-aos="fade-up" data-aos-duration="1000"
->
+            <h1
+              className="text-3xl lg:text-5xl font-semibold mb-3.5"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               Backed by Science
             </h1>
-            <p className="font-medium w-full lg:w-[482px] font-poppins mb-6" data-aos="fade-up" data-aos-duration="1000"
->
+            <p
+              className="font-medium w-full lg:w-[482px] font-poppins mb-6"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               Our product is backed by clinical studies that show significant
               improvement in airflow and reduction in snoring for consistent
               users.
             </p>
             <ul className="space-y-4">
-              <li className="flex items-center" data-aos="fade-up" data-aos-duration="1000"
->
+              <li
+                className="flex items-center"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <img src={frame} alt="frame" />
                 <span className="ml-4 mt-1 w-full lg:w-[446px] font-semibold font-poppins">
                   Clinical study shows 80% improvement in nasal airflow
                 </span>
               </li>
-              <li className="text-white flex items-center" data-aos="fade-up" data-aos-duration="1000"
->
+              <li
+                className="text-white flex items-center"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <img src={frame} alt="frame" />
                 <span className="ml-4 mt-1 w-full lg:w-[446px] font-semibold font-poppins">
                   70% of users report reduced snoring after 2 weeks
@@ -81,8 +102,12 @@ const ProductInfo = () => {
             </ul>
           </div>
           <div className="w-full lg:w-1/2">
-            <img src={testingImg} alt="testingImg" data-aos="zoom-in" data-aos-duration="1000"
-/>
+            <img
+              src={testingImg}
+              alt="testingImg"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            />
           </div>
         </div>
       </div>

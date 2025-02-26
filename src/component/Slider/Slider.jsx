@@ -1,11 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Parallax, Pagination, Navigation, Autoplay } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
+import sliderImg from '../../assets/sliderImage/slider image 1.png';
+import sliderImg2 from '../../assets/sliderImage/slider image 2.jpg';
+import sliderImg3 from '../../assets/sliderImage/slider image 3.webp';
 
 const Slider = () => {
   return (
@@ -43,7 +44,7 @@ const Slider = () => {
               className="h-[250px] md:h-[300px] lg:h-[408px] w-[795px] bg-cover bg-center rounded-2xl flex items-end relative p-6 lg:p-12"
               style={{
                 backgroundImage:
-                  "linear-gradient(270deg,  rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url('/src/assets/sliderImage/slider image 1.png')",
+                  `linear-gradient(270deg,  rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url(${sliderImg})`,
               }}
             >
               <div className="">
@@ -63,7 +64,7 @@ const Slider = () => {
               className="h-[250px] md:h-[300px] lg:h-[408px] w-[795px] bg-cover bg-center rounded-2xl flex items-end relative p-6 lg:p-12"
               style={{
                 backgroundImage:
-                  "linear-gradient(270deg,  rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url('/src/assets/sliderImage/slider image 2.jpg')",
+                  `linear-gradient(270deg,  rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url(${sliderImg2})`,
               }}
             >
               <div className="">
@@ -83,7 +84,7 @@ const Slider = () => {
               className="h-[250px] md:h-[300px] lg:h-[408px] w-[795px] bg-cover bg-center rounded-2xl flex items-end relative p-6 lg:p-12"
               style={{
                 backgroundImage:
-                  "linear-gradient(270deg,  rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url('/src/assets/sliderImage/slider image 3.webp')",
+                  `linear-gradient(270deg,  rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url(${sliderImg3})`,
               }}
             >
               <div className="">
