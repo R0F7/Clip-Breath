@@ -1,4 +1,5 @@
 import Banner from "./component/Banner/Banner";
+import FAQ from "./component/FAQ/FAQ";
 import Feedback from "./component/Feedback/Feedback";
 import HowItWorks from "./component/HowItWorks/HowItWorks";
 import Navbar from "./component/Navbar/Navbar";
@@ -22,6 +23,7 @@ const App = () => {
       <Results></Results>
       <Feedback></Feedback>
       <ProductInfo></ProductInfo>
+      <FAQ></FAQ>
     </main>
   );
 };
