@@ -38,4 +38,5 @@ body {
 .accordion-details {
   color: #404C5C !important;
   font-family: "Poppins", serif;
+  border-top: 1px dashed #DADDE3 !important;
 }

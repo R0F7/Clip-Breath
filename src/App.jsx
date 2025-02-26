@@ -1,4 +1,5 @@
 import Banner from "./component/Banner/Banner";
+import ChoosePlan from "./component/ChoosePlan/ChoosePlan";
 import FAQ from "./component/FAQ/FAQ";
 import Feedback from "./component/Feedback/Feedback";
 import HowItWorks from "./component/HowItWorks/HowItWorks";
@@ -24,6 +25,7 @@ const App = () => {
       <Feedback></Feedback>
       <ProductInfo></ProductInfo>
       <FAQ></FAQ>
+      <ChoosePlan></ChoosePlan>
     </main>
   );
 };
